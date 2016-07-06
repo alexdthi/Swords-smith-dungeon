@@ -1,4 +1,9 @@
 #h1{
-
-	 color :blue;
+	 color:blue;
 	}
+
+#rectangle{
+	color:#00FFBF;
+	height: 500px;
+	width: 100px;
+}
