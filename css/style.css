@@ -3,8 +3,12 @@ body{
 }
 
 #h1{
+<<<<<<< Updated upstream
 	 color:blue;
 
+=======
+	 color:darkblue;
+>>>>>>> Stashed changes
 	}
 
 /*#rectangle{
