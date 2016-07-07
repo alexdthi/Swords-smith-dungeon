@@ -1,8 +1,12 @@
+body{
+	text-align:center;
+}
+
 #h1{
 	 color:blue;
 	}
 
-#rectangle{
+/*#rectangle{
 	background-color:#00FFBF;
 	height: 100px;
 	width: 1350px;
@@ -20,6 +24,11 @@
 	height: 400px;
 	width: 100px;
 	margin-left: 1250px;
-	margin-top: -400px;
+	margin-top: -400pxs;
 	border-radius: 30%;
+}
+*/
+.imageholder img{
+	height: 100px;
+	width: 100px;
 }
