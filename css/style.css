@@ -8,13 +8,13 @@ body{
 
 	}
 
-/*#rectangle{
-	background-color:#00FFBF;
-	height: 100px;
+#rectangle{
+	background-color:#2EFEC8;
+	height: 200px;
 	width: 1350px;
 	border-radius: 30%;
 }
-#rectangle2{
+/*#rectangle2{
 	background-color:#00FFBF;
 	height: 400px;
 	width: 100px;
@@ -31,7 +31,8 @@ body{
 }
 */
 .imageholder img{
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 200px;
+	margin-top:
 }
  
