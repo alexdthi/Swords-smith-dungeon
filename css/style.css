@@ -1,25 +1,3 @@
 #h1{
 	 color:blue;
 	}
-
-#rectangle{
-	background-color:#00FFBF;
-	height: 100px;
-	width: 1350px;
-	border-radius: 30%;
-}
-#rectangle2{
-	background-color:#00FFBF;
-	height: 400px;
-	width: 100px;
-	border-radius: 30%;
-
-}
-#rectangle3{
-	background-color:#00FFBF;
-	height: 400px;
-	width: 100px;
-	margin-left: 1250px;
-	margin-top: -400px;
-	border-radius: 30%;
-}
