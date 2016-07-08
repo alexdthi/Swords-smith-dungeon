@@ -4,6 +4,9 @@ var hitpower;
 var mPosition;
 var pPosition = 2;
 
+document.getElementById("p"+pPosition).innerHTML = "Player";
+
+
 var monsterPlace = function(){
 	mPosition =  Math.floor(Math.random()*3)+1;
 	console.log(mPosition);
@@ -27,6 +30,32 @@ var hit = function() {
 		document.getElementById('display').innerHTML = "You Miss!";
 	}
 }
-var pPosition = function(){
-	pPosition = 
+var rightmove = function(){
+	if (pPosition==3) {
+		document.getElementById('display').innerHTML = "Can't move that way.";
+	} else {
+		document.getElementById("p"+pPosition).innerHTML = "";	
+		pPosition++;
+		document.getElementById("p"+pPosition).innerHTML = "Player";
+	}
+
+
+
 }
+
+
+
+
+var leftmove = function(){
+	if (pPosition==1) {
+		document.getElementById('display').innerHTML = "Can't move that way.";
+	} else {
+		document.getElementById("p"+pPosition).innerHTML = "";	
+		pPosition++;
+		document.getElementById("p"+pPosition).innerHTML = "Player";
+	}
+
+
+
+}
+
