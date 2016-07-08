@@ -6,6 +6,7 @@ body{
 #h1{
 	  color:darkblue;
 
+<<<<<<< HEAD
 }
 
 .space{
@@ -40,6 +41,43 @@ body{
 
 >>>>>>> Stashed changes
 =======
+
+#monster{
+	width: 300px;
+	height: 100px;
+/*	background-color: blue;*/
+}
+#player{
+	width: 300px;
+	height: 100px;
+/*	background-color: yellow;*/
+
+}
+>>>>>>> origin/master
+=======
+}
+
+.space{
+	height: 98px;
+	width: 98px;
+	border:solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+}
+
+#display{
+	height: 100px;
+	font-family: sans-serif;
+	font-size: 40px;
+	background-color: black;
+	color: red;
+} 
+#gameWrapper{
+	height: 200px;
+	width: 300px;
+	display: inline-block;
+}
 
 #monster{
 	width: 300px;
