@@ -51,7 +51,7 @@ var leftmove = function(){
 		document.getElementById('display').innerHTML = "Can't move that way.";
 	} else {
 		document.getElementById("p"+pPosition).innerHTML = "";	
-		pPosition++;
+		pPosition--;
 		document.getElementById("p"+pPosition).innerHTML = "Player";
 	}
 
