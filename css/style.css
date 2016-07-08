@@ -6,33 +6,38 @@ body{
 #h1{
 	  color:darkblue;
 
-	}
+}
 
-/*#rectangle{
-	background-color:#2EFEC8;
-	height: 170px;
-	width: 1350px;
-	border-radius: 30%;
+.space{
+	height: 98px;
+	width: 98px;
+	border:solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
 }
-/*#rectangle2{
-	background-color:#00FFBF;
-	height: 400px;
-	width: 100px;
-	border-radius: 30%;
 
-}
-#rectangle3{
-	background-color:#00FFBF;
-	height: 400px;
-	width: 100px;
-	margin-left: 1250px;
-	margin-top: -400pxs;
-	border-radius: 30%;
-}
-*/
-.imageholder img{
+#display{
+	height: 100px;
+	font-family: sans-serif;
+	font-size: 40px;
+	background-color: black;
+	color: red;
+} 
+#gameWrapper{
 	height: 200px;
-	width: 200px;
-	margin-top:
+	width: 300px;
+	display: inline-block;
 }
- 
+
+#monster{
+	width: 300px;
+	height: 100px;
+/*	background-color: blue;*/
+}
+#player{
+	width: 300px;
+	height: 100px;
+/*	background-color: yellow;*/
+
+}
