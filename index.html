@@ -7,22 +7,27 @@
 </head>
 <body>
 	<script type="text/javascript" src="js/index.js"></script>
-	<h1 id="h1">Swordsmiths-dungeon</h1>
+	<div id="title">
+		<h1 id="h1">Swordsmiths-dungeon</h1>
+	</div>
+	<div id="display"></div>
 
-	<button onclick="hit()"> hit</button>
-	<div id="mondead"></div>
-	<div id="monalive"></div>
+	<div id="gameWrapper">
+		<div id="monster">
+			<div id="m1" class="space"></div>
+			<div id="m2" class="space"></div>
+			<div id="m3" class="space"></div>
+		</div>
+		<div id="player">
+			<div id="p1" class="space"></div>
+			<div id="p2" class="space"></div>
+			<div id="p3" class="space"></div>
+		</div>
+	</div>
 
-<img src="assets/images.png">
-<img src="">
-<img src="">
-
-	<div id="rectangle"></div>
-	<div id="rectangle2"></div>
-	<div id="rectangle3"></div>
-	<div class="imageholder"><img src="assets/stickman.png"></div>
 	<div id="control">
 			<button id="left" onclick="leftmove()">left</button>
+			<button onclick="hit()"> hit</button>
 			<button id="right" onclick="rightmove()">right</button>
 	</div>
 	<script type="text/javascript" src="js/index.js"></script>

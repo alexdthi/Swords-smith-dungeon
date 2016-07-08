@@ -1,21 +1,32 @@
 var monHealth =100;
 var hitpower;
-var hit = function() {
-	hitpower = Math.floor(Math.random()*11);
-	monHealth -= hitpower;
 
-	if (monHealth <= 0) {
+var mPosition;
+var pPosition = 2;
 
-		monHealth = 0;
-		document.getElementById('mondead').innerHTML = "Your monster is dead!";
-		console.log(monHealth);
-
-		document.getElementById('monalive').innerHTML = "Your monster is at "  + monHealth;
-	} else {
-
-		document.getElementById('monalive').innerHTML = "Your monster is at "  + monHealth;
-
-
-	}
+var monsterPlace = function(){
+	mPosition =  Math.floor(Math.random()*3)+1;
+	console.log(mPosition);
+	document.getElementById("m"+mPosition).innerHTML = "Mon";
 }
 
+monsterPlace();
+
+var hit = function() {
+	if (pPosition == mPosition){
+		hitpower = Math.floor(Math.random()*11);
+		monHealth -= hitpower;
+
+		if (monHealth <= 0) {
+			document.getElementById('display').innerHTML = "Your monster is dead!";
+			console.log(monHealth);
+		} else {
+			document.getElementById('display').innerHTML = "Your monster is at "  + monHealth;
+		}
+	} else {
+		document.getElementById('display').innerHTML = "You Miss!";
+	}
+}
+var pPosition = function(){
+	pPosition = 
+}
