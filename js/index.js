@@ -22,7 +22,10 @@ var hit = function() {
 
 		if (monHealth <= 0) {
 			document.getElementById('display').innerHTML = "Your monster is dead!";
-			console.log(monHealth);
+			document.getElementById("m"+mPosition).innerHTML = "";
+			monsterPlace();
+			monHealth =100;
+
 		} else {
 			document.getElementById('display').innerHTML = "Your monster is at "  + monHealth;
 		}
@@ -54,8 +57,4 @@ var leftmove = function(){
 		pPosition--;
 		document.getElementById("p"+pPosition).innerHTML = "Player";
 	}
-
-
-
 }
-
