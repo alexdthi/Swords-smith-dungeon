@@ -4,7 +4,7 @@ body{
 }
 
 #h1{
-	  color:#610B0B;
+	  color:#8A0808;
 
 }
 
@@ -21,7 +21,7 @@ body{
 	height: 100px;
 	font-family: times;
 	font-size: 40px;
-	background-color: grey;
+	background-color: lightgrey;
 	color: #610B0B;
 } 
 #gameWrapper{
