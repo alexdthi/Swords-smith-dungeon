@@ -58,3 +58,4 @@ var leftmove = function(){
 		document.getElementById("p"+pPosition).innerHTML = "Player";
 	}
 }
+
