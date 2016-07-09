@@ -11,6 +11,10 @@ var monsterPlace = function(){
 	mPosition =  Math.floor(Math.random()*3)+1;
 	console.log(mPosition);
 	document.getElementById("m"+mPosition).innerHTML = "Mon";
+	setTimeout(function(){
+		document.getElementById("m"+mPosition).innerHTML = "";
+		monsterPlace();
+	}, 3000)
 }
 
 monsterPlace();
@@ -58,4 +62,10 @@ var leftmove = function(){
 		document.getElementById("p"+pPosition).innerHTML = "Player";
 	}
 }
+
+
+
+
+
+
 
